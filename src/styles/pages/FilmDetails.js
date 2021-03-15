@@ -53,6 +53,7 @@ export const ImageBox = styled.div`
 		img {
 			border-radius: 10px;
 			height: 80%;
+			max-width: 95%;
 		}
 
 		@media(max-width: 950px) {
