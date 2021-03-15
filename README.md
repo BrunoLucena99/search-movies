@@ -1,16 +1,16 @@
-## For run This Project
+# For run This Project
 
-Clone this project on the Github
+### Clone this project on the Github
 
--- yarn install or npm i
--- yarn dev or npm run dev
+#### yarn install or npm i
+#### yarn dev or npm run dev
 
 ## Project Deploy on Vercel
 
 Link: 
 
-## Techs
+# Techs
 
-# ReactJS
-# Next JS
-# Styled Components
+### .ReactJS
+### .Next JS
+### .Styled Components
