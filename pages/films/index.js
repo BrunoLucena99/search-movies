@@ -2,7 +2,8 @@ import { useState } from "react";
 import FilmItem from "../../src/components/FilmItem";
 import Header from "../../src/components/Header";
 import Input from "../../src/components/Input";
-import { FilmsContainer } from "../../src/styles/pages/Films";
+import SadIcon from "../../src/components/SadIcon";
+import { FilmsContainer, EmptyList } from "../../src/styles/pages/Films";
 
 export default function Films (props) {
 	const [films, setFilms] = useState(props.films.Search ?? [])
@@ -20,11 +21,19 @@ export default function Films (props) {
 	return (
 		<FilmsContainer>
 			<Header inputPlaceholder='Search Movie...' onChange={onChange} onKeyDown={findMoreFilms} />
-			<main>
 				{
-					films.map(film => <FilmItem key={film.imdbID} film={film} />)
+					films.length > 0 ? (
+						<main>
+							{films.map(film => <FilmItem key={film.imdbID} film={film} />)}
+						</main>
+					) : (
+						<EmptyList>
+							<SadIcon size='60' />
+							<p>Sorry! Your search returned no results</p>
+						</EmptyList>
+					)
+
 				}
-			</main>
 		</FilmsContainer>
 	) 
 }

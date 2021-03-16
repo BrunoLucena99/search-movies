@@ -28,3 +28,17 @@ export const FilmsContainer = styled.div`
 		}
 	}
 `
+
+export const EmptyList = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	p {
+		margin-top: 2rem;
+		color: #000;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+`
