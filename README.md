@@ -18,7 +18,11 @@ Link: https://search-movies-vert.vercel.app/
 # Images
 
 <p align="center">
-  <img src="https://i.imgur.com/EpDdgiR.png" width="32%" title="home" alt="HomePage">
-	<img src="https://i.imgur.com/9MH3VZf.png" width="32%" title="films" alt="FilmsPage">
-	<img src="https://i.imgur.com/3gtZmbQ.png" width="34%" title="filmDetails" alt="FilmsDetailsPage">
+  <img src="https://i.imgur.com/EpDdgiR.png" width="45%" title="home" alt="HomePage">
+	<img src="https://i.imgur.com/9MH3VZf.png" width="45%" title="films" alt="FilmsPage">
+</p>
+
+<p align="center">
+	<img src="https://i.imgur.com/re8gPXu.png" width="45%" title="emptyList" alt="FilmsPageWithEmptyList">
+	<img src="https://i.imgur.com/jC0R4iH.png" width="45%" title="filmsDetails" alt="FilmsDetailsPage">
 </p>
