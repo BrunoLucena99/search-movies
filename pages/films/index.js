@@ -10,7 +10,7 @@ export default function Films (props) {
 	const [searchItem, setSearchItem] = useState('')
 
 	const findMoreFilms = async () => {
-		const data = await (await fetch(`http://www.omdbapi.com/?apikey=ace1b037&s=${searchItem}`)).json()
+		const data = await (await fetch(`https://www.omdbapi.com/?apikey=ace1b037&s=${searchItem}`)).json()
 		setFilms(data.Search) 
 	}
 
