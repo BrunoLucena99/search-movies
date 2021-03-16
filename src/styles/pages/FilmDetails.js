@@ -28,7 +28,6 @@ export const Content = styled.main`
 `
 
 export const Wrapper = styled.div`
-		padding: 1.5rem 5rem;
 		background-color: #DEDEDE;
 `
 
